@@ -1,46 +1,92 @@
 <!DOCTYPE html>
 <html lang="en"> 
-  <head>
-    <meta charset="UTF-8"> 
+    <head>
+  <div class="hero-image">
+      <div class="hero-text">
+        <h1>Üheleheline õppeveeb</h1>
+        <p>HTML ja CSS</p>
+        <button>  
+          <a href="#galerii">Galerii</a>
+        </button>
+      </div>
+    </div>
+    <div class="header">
+      <h2>Üheleheline õppeveeb</h2>
+      <p>HTML ja css</p>
+        <header>
+      <div class="nav">
+      <nav aria-label="Põhinavigatsioon">
+        <a href="#sissejuhatus">Sissejuhatus</a>
+        <a href="#teooria">Teooria</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      </div>
+       <svg role="img" aria-labelledby="ic-title ic-desc" width="24" height="24" viewBox="0 0 24 24">
+            <title id="ic-title">Info ikoon</title>
+             <desc id="ic-desc">Ringis i-täht</desc>
+              <circle cx="12" cy="12" r="10" fill="currentColor"/>
+              <text x="12" y="16" text-anchor="middle" font-size="12" fill="#0b1220">i</text>
+            </svg> 
+    </header>
+    </div>
+    </head>
+    <body>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS">
     <meta name="description" content="...">
     <title>Üheleheline õppeveeb</title>
     <link rel="stylesheet" href="CSS/styles.css">
     <main>
-<h1>Üheleheline õppeveeb</h1>
-    </main>
-  </head>
-  <body>
-    <img src="images/cow.jpg" alt="cow" />
-    <p class="username">Getter Prükk</p>
-    <p>I love <em>Piim</em>!</p>
-      </body>
-     <header>
-      <nav aria-label="Põhinavigatsioon">
-        <a href="#sissejuhatus">Sissejuhatus</a>
-        <a href="#teooria">Teooria</a>
-        <a href="#kontakt">Kontakt</a>
-      </nav>
-    </header>
-    <main>
      <section id="sissejuhatus">
+       <div class="galerii">
         <h2>Sissejuhatus</h2>
-        <p>Mis on HTML?</p>
+        <h4>Mis on HTML?</h4>
+        <p>HTML ehk Hypertext Markup Language on standardne märgistuskeel veebilehtede ja veebirakenduste loomiseks. HTML-i kasutatakse veebilehel kuvatava sisu struktureerimiseks ja vormindamiseks ning seda saab kasutada piltide, videote ja muu multimeediumi lisamiseks</p>
       </section>
       <section id="teooria">
+        <div class="galerii">
         <h2>Teooria</h2>
-        <p>HTML tähendus.</p>
+        <h4>HTML tähendus.</h4>
+        <p>HTML (ingliskeelne lühend sõnadest HyperText Markup Language 'hüperteksti märgistuskeel') on keel, milles märgendatakse veebilehti. Versioonid 2.0 kuni 4.01 HTML olid SGML-i rakendused. HTML-dokumentide (failide) veebist allalaadimiseks ja vaatamiseks kasutatakse enamasti veebibrauserit.</p>
+        <h3> Olulised koodid</h3>
+        <h4> Terminalis projekti muudatuste üleslaadimine github'i</h4>
+        <p>git add .</p>
+        <p>git commit-m " mida muutsid"</p>
+        <p>git push</p>
+        <h4>Muudatuste alla tõmbamine github'ist</h4>
+        <p>git pull</p>
+        <h3>Õppe video</h3>
+        <video controls width="640" height="360" poster="assets/images/maxresdefault.jpg">
+        <source src="https://youtu.be/qz0aGYrrlhU" type="video/webm">
+        </video>
+        </section>
+        <section id="galerii">
+            <div class="galerii">
+          <h2>Galerii</h2>
+          <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://images.unsplash.com/photo-1665603287514-ec5189300054" alt="pilt 1"loading="lazy">
+         </a>  
+         <a href="galerii.html">
+       <img src="assets/images/kiisud.jpg" alt="Ava galerii">
+          </a>
+     
+          <video controls width="640" height="360" poster="">
+          <source src="assets/media/3070350-hd_1920_1080_30fps.mp4" type="video/mp4">
+    
+          </video>
+        
         <section id="kontakt">
+           <div class="headerr">
           <h2>Kontakt</h2>
           <h4>About me</h4>
-        </section>
-    <section>
-      <header>
+    <img src="assets/images/cow.jpg" alt="cow" />
+    <p class="username">Getter Prükk</p>
+    <p>I love <em>Piim</em>!</p>
       <p>getter.prukk@voco.ee</p>
       <p>+372 55626083</p>
-      </header>
-    
+    </div>
     </section>
+    <link rel="stylesheet" href="CSS/styles.css">
 </main>
+</body>
 </html>
