@@ -6,7 +6,9 @@
         <h1>Üheleheline õppeveeb</h1>
         <p>HTML ja CSS</p>
         <button>  
-          <a href="#galerii">Galerii</a>
+          <div class="nav">
+          <a href="#galerii">GALERII</a>
+         </div>
         </button>
       </div>
     </div>
@@ -16,7 +18,7 @@
         <header>
       <div class="nav">
       <nav aria-label="Põhinavigatsioon">
-        <a href="#sissejuhatus">Sissejuhatus</a>
+      <a href="#sissejuhatus">Sissejuhatus</a>
         <a href="#teooria">Teooria</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
@@ -37,12 +39,14 @@
     <title>Üheleheline õppeveeb</title>
     <link rel="stylesheet" href="CSS/styles.css">
     <main>
+
      <section id="sissejuhatus">
        <div class="galerii">
         <h2>Sissejuhatus</h2>
         <h4>Mis on HTML?</h4>
         <p>HTML ehk Hypertext Markup Language on standardne märgistuskeel veebilehtede ja veebirakenduste loomiseks. HTML-i kasutatakse veebilehel kuvatava sisu struktureerimiseks ja vormindamiseks ning seda saab kasutada piltide, videote ja muu multimeediumi lisamiseks</p>
       </section>
+
       <section id="teooria">
         <div class="galerii">
         <h2>Teooria</h2>
@@ -57,25 +61,39 @@
         <p>git pull</p>
         <h3>Õppe video</h3>
         <video controls width="640" height="360" poster="assets/images/maxresdefault.jpg">
-        <source src="https://youtu.be/qz0aGYrrlhU" type="video/webm">
+        <source src="assets/media/HTML Tutorial for Beginners HTML Crash Course - Programming with Mosh (1080p, h264).mp4" type="video/mp4">
         </video>
+        <h3>Navigeerimine</h3>
+        <div>
+        <img src="assets/images/Screenshot 2025-09-10 at 13.00.10.png" alt="nav" class="Navigeerimine">
+        </div>
+       <br>
         </section>
-        <section id="galerii">
+        <br>
+
+  <section id="galerii">
             <div class="galerii">
           <h2>Galerii</h2>
-          <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">
-            <img src="https://images.unsplash.com/photo-1665603287514-ec5189300054" alt="pilt 1"loading="lazy">
-         </a>  
-         <a href="galerii.html">
-       <img src="assets/images/kiisud.jpg" alt="Ava galerii">
-          </a>
-     
+          <br>
           <video controls width="640" height="360" poster="">
           <source src="assets/media/3070350-hd_1920_1080_30fps.mp4" type="video/mp4">
-    
-          </video>
-        
+        </video>
+        </div>
+        <br>
+        <div>
+        <a href="https://unsplash.com/photos/two-brown-tabby-cats-on-wood-planks-nKzeG3iE_Qg" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/cat.jpg" alt="pilt 1" loading="lazy" class="galeriipilt">
+         </a>  
+    </div>
+    <div>
+         <a href="galerii.html">
+       <img src="assets/images/kiisud.jpg" alt="Ava galerii" class="galeriipilt">
+          </a>
+          </div>
+        </section>
+
         <section id="kontakt">
+          
            <div class="headerr">
           <h2>Kontakt</h2>
           <h4>About me</h4>
@@ -86,6 +104,7 @@
       <p>+372 55626083</p>
     </div>
     </section>
+
     <link rel="stylesheet" href="CSS/styles.css">
 </main>
 </body>
