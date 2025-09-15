@@ -1,50 +1,46 @@
 <!DOCTYPE html>
-<html lang="en"> 
-    <head>
-  <div class="hero-image">
+<html lang="et"> 
+<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="...">
+    <title>Üheleheline õppeveeb</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+  <body>
+   <div class="hero-image">
       <div class="hero-text">
         <h1>Üheleheline õppeveeb</h1>
         <p>HTML ja CSS</p>
-        <button>  
-          <div class="nav">
-          <a href="#galerii">GALERII</a>
-         </div>
-        </button>
+      <button onclick="location.href='#galerii'" class="nav">GALERII</button>
       </div>
+    </div>
+     <nav aria-label="Põhinavigatsioon" class="navbar">
+      <div class="nav">
+        <a href="#sissejuhatus">Sissejuhatus</a>
+        <a href="#teooria">Teooria</a>
+        <a href="#kontakt">Kontakt</a>
     </div>
     <div class="header">
       <h2>Üheleheline õppeveeb</h2>
       <p>HTML ja css</p>
-        <header>
-      <div class="nav">
-      <nav aria-label="Põhinavigatsioon">
-      <a href="#sissejuhatus">Sissejuhatus</a>
-        <a href="#teooria">Teooria</a>
-        <a href="#kontakt">Kontakt</a>
-      </nav>
-      </div>
-       <svg role="img" aria-labelledby="ic-title ic-desc" width="24" height="24" viewBox="0 0 24 24">
+      <svg role="img" aria-labelledby="ic-title ic-desc" width="24" height="24" viewBox="0 0 24 24">
             <title id="ic-title">Info ikoon</title>
              <desc id="ic-desc">Ringis i-täht</desc>
               <circle cx="12" cy="12" r="10" fill="currentColor"/>
               <text x="12" y="16" text-anchor="middle" font-size="12" fill="#0b1220">i</text>
             </svg> 
-    </header>
-    </div>
-    </head>
-    <body>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="HTML, CSS">
-    <meta name="description" content="...">
-    <title>Üheleheline õppeveeb</title>
-    <link rel="stylesheet" href="CSS/styles.css">
-    <main>
+     </div>
+     </nav>
+ <main>
 
      <section id="sissejuhatus">
        <div class="b">
         <h2>Sissejuhatus</h2>
         <h4>Mis on HTML?</h4>
         <p>HTML ehk Hypertext Markup Language on standardne märgistuskeel veebilehtede ja veebirakenduste loomiseks. HTML-i kasutatakse veebilehel kuvatava sisu struktureerimiseks ja vormindamiseks ning seda saab kasutada piltide, videote ja muu multimeediumi lisamiseks</p>
+        </div>
       </section>
 
       <section id="teooria">
@@ -59,53 +55,68 @@
         <p>git push</p>
         <h4>Muudatuste alla tõmbamine github'ist</h4>
         <p>git pull</p>
-        <h3>Õppe video</h3>
-        <video controls width="640" height="360" poster="assets/images/0.jpg">
-        <source src="assets/media/HTML in 5 minutes - Aaron Jack (1080p, h264).mp4" type="video/mp4">
-        </video>
-        <h3>Navigeerimine</h3>
-        <div>
-        <img src="assets/images/Screenshot 2025-09-10 at 13.00.10.png" alt="nav" class="Navigeerimine">
-        </div>
-       <br>
-        </section>
-        <br>
 
-        <section>
+        </div>
+
+        </section>
+        <div class="a">
+         <h3>Oluline</h3>
+         <p>header – lehe või sektsiooni päis. Tavaliselt sisaldab logo, pealkirja või navigeerimist.</p>
+         <p>nav – spetsiaalne ala, kus paiknevad navigeerimislingid. Ekraanilugejad tunnevad selle ära kui navigeerimise bloki.</p>
+         <p>section– temaatiline sisublokk, millel on oma pealkiri (h2 jne). Näiteks „Meist“, „Teenused“.</p>
+         <p>article – iseseisev sisutükk, mis võiks ka üksinda avaldatuna tähendust omada (uudis, blogipostitus).</p>
+        <p>aside – lisainfo, nt küljeriba või viited seotud sisule.</p>
+      <p>footer – lehe või sektsiooni jalus (autoriõigused, kontaktid).</p>
+        </div>
+
         <div class="a">
         <h3>Milline key on active</h3>
         <p>Run:</p>
         <p>ssh-add -1</p>
-        <h3>Testi oma võtit</h3>
+        <h4>Testi oma võtit</h4>
         <p>ssh -T git@github.com</p>
         <br>
-        <img src="assets/images/Screenshot 2025-09-11 at 15.55.35.png" alt="key" class="Navigeerimine">
-        <br>
-</div>
-</section>
-
-
-  <div class="a">
-  <section id="galerii">
-    <div>
-          <h2>Galerii</h2>
-                  <a href="https://unsplash.com/photos/two-brown-tabby-cats-on-wood-planks-nKzeG3iE_Qg" target="_blank" rel="noopener noreferrer">
-            <img src="assets/images/cat.jpg" alt="pilt 1" loading="lazy" class="galeriipilt">
-         </a>  
-
-         <a href="galerii.html">
-       <img src="assets/images/kiisud.jpg" alt="Ava galerii" class="galeriipilt">
-          </a>
-                    <video controls width="640" height="360" poster="">
-          <source src="assets/media/3070350-hd_1920_1080_30fps.mp4" type="video/mp4">
+        <h4>Clear old keys:</h4>
+        <p>ssh-add -D</p>
+        <h4>Load your key:</h4>
+        <p>ssh-add ~/.ssh/id_ed25519_yourname </p>
+        <h4>Check it's active:</h4>
+        <p>ssh-add -1</p>
+        <h4>Test with GitHub</h4>
+        <p>ssh-T git@github.com</p>
+        </div>
+        <div class="a">
+          <h3>Lehe paigutus</h3>
+          <h4>Flex box</h4>
+          <p>Mõeldud ühe mõõtme jaoks (rea või veeru paigutus).</p>
+          <p>Sobib horisontaalse või vertikaalse elemendirea joondamiseks.</p>
+          <p>Oluline omadus: display: flex;.</p>
+          <p>Põhilised sätted: justify-content (joondus reas), align-items (joondus veerus).</p>
+          <h4>Grid</h4>
+          <p>Mõeldud kahe mõõtme jaoks (ridade ja veergude paigutus).</p>
+          <p>Sobib keerukamate lehtede ja kaartide paigutamiseks.</p>
+          <p>Oluline omadus: display: grid;.</p>
+          <p>Põhilised sätted: grid-template-columns, grid-template-rows, gap.</p>
+        <h3>Õppe video</h3>
+        <p>Video räägib 5 minuti jooksul põhi asjad, mida oleks hea teada HTML-i kasutamisel</p>
+        </div>
+        <video controls width="640" height="360" poster="assets/images/0.jpg" class="vid">
+        <source src="assets/media/vid1.mp4" type="video/mp4" style="max-width: 100%; height: auto;">
         </video>
-
-
-          </div>
-        </section>
-
+     <section id="galerii">
+      <div class="a">
+      <h2>Galerii</h2>
+      </div>
+       <a href="https://www.w3schools.com/howto/howto_css_hero_image.asp" target="_blank" rel="noopener noreferrer">
+       <img src="assets/images/cat.jpg" alt="pilt 1" loading="lazy" class="galeriipilt"></a>  
+       <a href="galerii.html">
+       <img src="assets/images/kiisud.jpg" alt="Ava galerii" class="galeriipilt"> </a>
+      <video controls width="640" height="360" class="vid">
+      <source src="assets/media/3070350-hd_1920_1080_30fps.mp4" type="video/mp4"  style="max-width: 100%; height: auto;">
+      </video>
+</section>
         <section id="kontakt">
-         
+
           <div class="headerr">
           <h2>Kontakt</h2>
           <h4>About me</h4>
@@ -117,11 +128,10 @@
     
     </div>
     </section>
-
-  
-
-    <link rel="stylesheet" href="CSS/styles.css">
-
+  <section>
+  <h6>:D</h6>
+   <link rel="stylesheet" href="CSS/styles.css">
+  </section> 
 </main>
 </body>
 </html>
