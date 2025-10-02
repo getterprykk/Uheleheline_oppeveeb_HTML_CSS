@@ -40,7 +40,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     max-width: 100%;
      
 }
@@ -51,7 +51,7 @@
          background-color: #4c3a3a;
         color: rgb(112, 94, 84);
         font-size: 20px;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Times New Roman', Times, serif
 
       }
 .navbar{
@@ -67,7 +67,7 @@
 .nav {
   text-align: center;
   font-size: 20px;
-  font-family: 'Courier New Bold', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
   text-emphasis-color: #4c3a3a ;
   position: sticky;
   top: 0%;
@@ -87,7 +87,7 @@
          background-color: #4c3a3a;
         color: rgb(112, 94, 84);
         font-size: 20px;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Times New Roman', Times, serif
 }
 
 .galerii {
@@ -103,7 +103,7 @@
          background-color: #ffffff;
         color: rgb(112, 94, 84);
         font-size: 20px;
-        font-family: 'Courier New', Courier, monospace
+        font-family: 'Times New Roman', Times, serif
    
 }
 .galeriipilt {
@@ -129,7 +129,7 @@
 
 .galeriii {
   font-size: 14px;
-  font-family: 'Courier New Bold', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
    text-align: left;
    float: left;
 }
@@ -154,7 +154,7 @@
         background-color: #ffffff;
         color: rgb(112, 94, 84);
         font-size: 20px;
-        font-family: 'Courier New', Courier, monospace
+        font-family: 'Times New Roman', Times, serif
 }
 .b {
 
@@ -162,7 +162,7 @@
         background-color: #ffffff;
         color: rgb(112, 94, 84);
         font-size: 20px;
-        font-family: 'Courier New', Courier, monospace
+        font-family: 'Times New Roman', Times, serif
 }
 .imgg {
    width: 100px;
